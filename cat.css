@@ -1,0 +1,33 @@
+*{
+  margin: 0px;
+  box-sizing:border-box;
+}
+
+
+body{
+  font-family: Sniglet;
+}
+
+ul {
+  list-style-type: none;
+  margin: 15px;
+  padding: 10px
+}
+
+.content{
+  border: 3px solid rgba(24, 15, 15, 0.783);
+  border-radius: 20px;
+
+}
+nav ul {
+    justify-content:space-evenly;
+    display: flex;
+}
+
+
+a{ 
+   color:rgb(255, 255, 255);
+   background-color: rgb(15, 13, 10);
+   padding: 17px;
+   border-radius: 10px;
+}
