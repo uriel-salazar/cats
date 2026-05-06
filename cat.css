@@ -5,6 +5,7 @@
 
 @media (max-width: 600px) {
   nav ul {
+  
     flex-direction:column;  /* stack items vertically */
     align-items: center;      /* center them */
     gap: 10px;                /* space between buttons */
@@ -28,7 +29,8 @@ video {
 }
 
 body{
-  font-family: 'Rubik'
+  font-family: 'Rubik';
+  margin: 0;
 }
 
 ul {
@@ -45,10 +47,16 @@ ul {
 nav ul {
     display: flex;
     justify-content:space-evenly;
-    display: flex;
     flex-wrap: wrap;
     gap:10px;
+    
 }
+
+.logo-navbar img{
+  height: 60px;
+  width: auto;
+}
+
 
 /* Buttons properties and animation */
 .button{
@@ -59,6 +67,7 @@ nav ul {
    padding: 17px;
    border-radius: 100px;
    text-decoration: none;
+   
 
 }
 
@@ -110,3 +119,7 @@ nav ul {
   color:rgba(255, 255, 255, 0.908);
 }
 
+.container{
+  padding: 150px;
+
+}
