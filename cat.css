@@ -50,19 +50,32 @@ nav ul {
     gap:10px;
 }
 
+/* Buttons properties and animation */
+.button{
 
-a{ 
   display: inline-block;
    color:rgb(255, 255, 255);
    background-color: rgb(15, 13, 10);
    padding: 17px;
    border-radius: 10px;
    text-decoration: none;
+
+}
+
+
+.button:hover{
+  cursor: pointer;
+  background-color: rgba(44, 43, 43, 0.92);
+}
+.button:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+  background-color: rgb(104, 106, 107);
 }
 
 
 .hero-image{
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("engin_akyurt-cat-6706393.webp");
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image_cat_hero.webp");
    height: 600px;
    background-position: center;
    background-repeat: no-repeat;
@@ -95,6 +108,3 @@ a{
   color:rgba(255, 255, 255, 0.908);
 }
 
-.button:hover{
-  background-color: rgba(44, 43, 43, 0.92);
-}
