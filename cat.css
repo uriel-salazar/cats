@@ -57,7 +57,7 @@ nav ul {
    color:rgb(255, 255, 255);
    background-color: rgb(15, 13, 10);
    padding: 17px;
-   border-radius: 10px;
+   border-radius: 100px;
    text-decoration: none;
 
 }
@@ -66,10 +66,12 @@ nav ul {
 .button:hover{
   cursor: pointer;
   background-color: rgba(44, 43, 43, 0.92);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0,0.2); /* add shadow */
 }
 .button:active{
-  box-shadow: 0 5px #666;
-  transform: translateY(1px);
+
+  transform: translateY(-1px);
   background-color: rgb(104, 106, 107);
 }
 
