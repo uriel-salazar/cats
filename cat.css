@@ -1,5 +1,6 @@
 *{
-  margin: 0px;
+  margin: 0;
+  padding:0;
   box-sizing:border-box;
 }
 
@@ -135,6 +136,15 @@ nav ul {
 }
 
 .card{
-  padding: 100px;
-  background-color: blue;
+  display: flex;
+  gap: 1rem;
+  width: 400px;
+  border: 1px solid #4a3434;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.card-image img{
+  width: 100px;
 }
