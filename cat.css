@@ -128,23 +128,31 @@ nav ul {
 /* cards stuff */
 .card-container{
     display: flex;
-    flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
     padding: 5rem;
 
 }
 
+.card h2{
+  text-align: center;
+ 
+}
+
 .card{
   display: flex;
   gap: 1rem;
-  width: 400px;
+  align-items: center;
+  width: 1000px;
   border: 1px solid #4a3434;
   border-radius: 8px;
   padding: 1rem;
   background-color: #fff;
+  justify-content: center;
+  border-radius: 15px;
 }
 
 .card-image img{
   width: 100px;
+  border-radius: 15px;
 }
