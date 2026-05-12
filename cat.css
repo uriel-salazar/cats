@@ -144,7 +144,7 @@ nav ul {
   gap: 1rem;
   align-items: center;
   width: 1000px;
-  border: 1px solid #4a3434;
+  border: 1.5px solid #4a3434;
   border-radius: 8px;
   padding: 1rem;
   background-color: #fff;
@@ -153,6 +153,21 @@ nav ul {
 }
 
 .card-image img{
-  width: 100px;
-  border-radius: 15px;
+  
+   width: 120px;
+  height: 150px;
+  object-fit:cover;
+  border-radius: 10px;
+
 }
+.card:hover{
+  transition: 0.5s;
+  background-color: #f2eded;;
+}
+
+.card:active{
+  transform: translateY(-1px);
+  background-color: rgb(104, 106, 107);
+  
+}
+
