@@ -41,9 +41,7 @@ ul {
 }
 
 .content{
-  border: 3px solid rgba(24, 15, 15, 0.783);
-  border-radius: 20px;
-
+  border: 2px solid rgba(42, 74, 22, 0.687);
 }
 nav ul {
     display: flex;
@@ -128,9 +126,10 @@ nav ul {
 /* cards stuff */
 .card-container{
     display: flex;
+    flex:wrap;
     gap: 1rem;
     justify-content: center;
-    padding: 5rem;
+    margin-top:100px;
 
 }
 
@@ -141,21 +140,18 @@ nav ul {
 
 .card{
   display: flex;
-  gap: 1rem;
-  align-items: center;
-  width: 1000px;
+  overflow: hidden;
+  width: 325px;
   border: 1.5px solid #4a3434;
   border-radius: 8px;
-  padding: 1rem;
   background-color: #fff;
-  justify-content: center;
-  border-radius: 15px;
+  margin:20px;
 }
 
 .card-image img{
   
-   width: 120px;
-  height: 150px;
+   width: 100%;
+  height: auto;
   object-fit:cover;
   border-radius: 10px;
 
@@ -171,3 +167,10 @@ nav ul {
   
 }
 
+
+@media (max-width:768px){
+    nav {
+    flex-wrap: wrap;
+    padding: 0 20px;
+    }
+  }
